@@ -17,3 +17,6 @@ This is actually a fun project. It requires Python and currently only runs on Wi
 	- type `pip install projectoxford` and press enter
 - type `setup.bat` and press enter
 - type `python speech.py` and press enter and enjoy the show
+
+###Plug
+[https://blogs.msdn.microsoft.com/pythonengineering/2016/02/15/talking-with-python-fabrikam-pizza-shack/](https://blogs.msdn.microsoft.com/pythonengineering/2016/02/15/talking-with-python-fabrikam-pizza-shack/)

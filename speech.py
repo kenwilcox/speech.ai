@@ -22,10 +22,14 @@ if luis is not None:
 
 	# The URL could be wrapped in quotes
 	lc = LuisClient(luis.replace('"', ""))
-	intent, toppings, _ = lc.query(order)
+	intent, toppings, size = lc.query(order)
+
+	print(intent, toppings, size)
+	if size is None:
+		size = "medium"
 
 	if intent == "Pizza" and toppings:
-		print("I will send you a pizza with", join_and(toppings))
+		print("I will send you a", size, "pizza with", join_and(toppings))
 	else:
 		print("Sorry, we only sell pizza here.")
 else:
