@@ -1,0 +1,542 @@
+{
+  "luis_schema_version": "1.0.0",
+  "name": "PizzaShoppe",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    "None",
+    "Pizza"
+  ],
+  "entities": [
+    "Topping"
+  ],
+  "bing_entities": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "can i have pizza with pineapple and bacon",
+      "intent": "Pizza",
+      "entities": [
+        {
+          "entity": "Topping",
+          "startPos": 5,
+          "endPos": 5
+        },
+        {
+          "entity": "Topping",
+          "startPos": 7,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "i'd like cheese, tomato and bacon on my pizza",
+      "intent": "Pizza",
+      "entities": [
+        {
+          "entity": "Topping",
+          "startPos": 4,
+          "endPos": 4
+        },
+        {
+          "entity": "Topping",
+          "startPos": 6,
+          "endPos": 6
+        },
+        {
+          "entity": "Topping",
+          "startPos": 8,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "can i get tomato with cheese on my pizza",
+      "intent": "Pizza",
+      "entities": [
+        {
+          "entity": "Topping",
+          "startPos": 3,
+          "endPos": 3
+        },
+        {
+          "entity": "Topping",
+          "startPos": 5,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "sausage and pepperoni on my pizza please",
+      "intent": "Pizza",
+      "entities": [
+        {
+          "entity": "Topping",
+          "startPos": 0,
+          "endPos": 0
+        },
+        {
+          "entity": "Topping",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "i'd like cheese, ham and spam on my pizza",
+      "intent": "Pizza",
+      "entities": [
+        {
+          "entity": "Topping",
+          "startPos": 4,
+          "endPos": 4
+        },
+        {
+          "entity": "Topping",
+          "startPos": 6,
+          "endPos": 6
+        },
+        {
+          "entity": "Topping",
+          "startPos": 8,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "i'd like spam, ham, cheese and chocolate on my pizza",
+      "intent": "Pizza",
+      "entities": [
+        {
+          "entity": "Topping",
+          "startPos": 4,
+          "endPos": 4
+        },
+        {
+          "entity": "Topping",
+          "startPos": 6,
+          "endPos": 6
+        },
+        {
+          "entity": "Topping",
+          "startPos": 8,
+          "endPos": 8
+        },
+        {
+          "entity": "Topping",
+          "startPos": 10,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "i'd like cheese, bacon, and sausage on my pizza",
+      "intent": "Pizza",
+      "entities": [
+        {
+          "entity": "Topping",
+          "startPos": 4,
+          "endPos": 4
+        },
+        {
+          "entity": "Topping",
+          "startPos": 6,
+          "endPos": 6
+        },
+        {
+          "entity": "Topping",
+          "startPos": 8,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "can i get pizza with cheese and onion",
+      "intent": "Pizza",
+      "entities": [
+        {
+          "entity": "Topping",
+          "startPos": 5,
+          "endPos": 5
+        },
+        {
+          "entity": "Topping",
+          "startPos": 7,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "i'd like tomato, ham, cheese, sundried tomatoes, and pineapple",
+      "intent": "Pizza",
+      "entities": [
+        {
+          "entity": "Topping",
+          "startPos": 4,
+          "endPos": 4
+        },
+        {
+          "entity": "Topping",
+          "startPos": 6,
+          "endPos": 6
+        },
+        {
+          "entity": "Topping",
+          "startPos": 8,
+          "endPos": 8
+        },
+        {
+          "entity": "Topping",
+          "startPos": 10,
+          "endPos": 11
+        },
+        {
+          "entity": "Topping",
+          "startPos": 14,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "can i have pizza with tomato, bacon, ham and anchovies",
+      "intent": "Pizza",
+      "entities": [
+        {
+          "entity": "Topping",
+          "startPos": 5,
+          "endPos": 5
+        },
+        {
+          "entity": "Topping",
+          "startPos": 7,
+          "endPos": 7
+        },
+        {
+          "entity": "Topping",
+          "startPos": 9,
+          "endPos": 9
+        },
+        {
+          "entity": "Topping",
+          "startPos": 11,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "can i get pizza with sausage and cheese and bacon please",
+      "intent": "Pizza",
+      "entities": [
+        {
+          "entity": "Topping",
+          "startPos": 5,
+          "endPos": 5
+        },
+        {
+          "entity": "Topping",
+          "startPos": 7,
+          "endPos": 7
+        },
+        {
+          "entity": "Topping",
+          "startPos": 9,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "can i get a golf club with chase",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i would like a pizza with cheese and bacon",
+      "intent": "Pizza",
+      "entities": [
+        {
+          "entity": "Topping",
+          "startPos": 6,
+          "endPos": 6
+        },
+        {
+          "entity": "Topping",
+          "startPos": 8,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "i would like a sandwich with bacon, lettuce and tomato",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "Topping",
+          "startPos": 6,
+          "endPos": 6
+        },
+        {
+          "entity": "Topping",
+          "startPos": 8,
+          "endPos": 8
+        },
+        {
+          "entity": "Topping",
+          "startPos": 10,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "can i have a cheese, egg and tomato roll",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "Topping",
+          "startPos": 4,
+          "endPos": 4
+        },
+        {
+          "entity": "Topping",
+          "startPos": 6,
+          "endPos": 6
+        },
+        {
+          "entity": "Topping",
+          "startPos": 8,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "i would like a banana cake",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "chocolate ice cream please",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "Topping",
+          "startPos": 2,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "a pizza with chocolate on it",
+      "intent": "Pizza",
+      "entities": [
+        {
+          "entity": "Topping",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "some pizza with bananas and ice cream",
+      "intent": "Pizza",
+      "entities": [
+        {
+          "entity": "Topping",
+          "startPos": 3,
+          "endPos": 3
+        },
+        {
+          "entity": "Topping",
+          "startPos": 5,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "a sandwich with banana and ice cream",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "Topping",
+          "startPos": 3,
+          "endPos": 3
+        },
+        {
+          "entity": "Topping",
+          "startPos": 5,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "i would like a pizza sandwich",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i would like a sandwich pizza",
+      "intent": "Pizza",
+      "entities": [
+        {
+          "entity": "Topping",
+          "startPos": 4,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "may i order a ham sandwich",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "Topping",
+          "startPos": 4,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "i'd like my pizza to have cheese and bacon",
+      "intent": "Pizza",
+      "entities": [
+        {
+          "entity": "Topping",
+          "startPos": 8,
+          "endPos": 8
+        },
+        {
+          "entity": "Topping",
+          "startPos": 10,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "double latte with hazelnut",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "Topping",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "i'd like cheese and bacon on my pizza",
+      "intent": "Pizza",
+      "entities": [
+        {
+          "entity": "Topping",
+          "startPos": 4,
+          "endPos": 4
+        },
+        {
+          "entity": "Topping",
+          "startPos": 6,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "my pizza should have goat cheese and mozzarella on it",
+      "intent": "Pizza",
+      "entities": [
+        {
+          "entity": "Topping",
+          "startPos": 5,
+          "endPos": 5
+        },
+        {
+          "entity": "Topping",
+          "startPos": 7,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "a pizza with chocolate and hazelnut please",
+      "intent": "Pizza",
+      "entities": [
+        {
+          "entity": "Topping",
+          "startPos": 3,
+          "endPos": 3
+        },
+        {
+          "entity": "Topping",
+          "startPos": 5,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "may i have pizza with pineapple and sausage",
+      "intent": "Pizza",
+      "entities": [
+        {
+          "entity": "Topping",
+          "startPos": 5,
+          "endPos": 5
+        },
+        {
+          "entity": "Topping",
+          "startPos": 7,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "i would like a pizza with cheese bacon and pineapple",
+      "intent": "Pizza",
+      "entities": [
+        {
+          "entity": "Topping",
+          "startPos": 6,
+          "endPos": 6
+        },
+        {
+          "entity": "Topping",
+          "startPos": 7,
+          "endPos": 7
+        },
+        {
+          "entity": "Topping",
+          "startPos": 9,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "i'd like a meat lovers pizza",
+      "intent": "Pizza",
+      "entities": [
+        {
+          "entity": "Topping",
+          "startPos": 5,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "a large pepperoni pizza with olives and jalapenos",
+      "intent": "Pizza",
+      "entities": [
+        {
+          "entity": "Topping",
+          "startPos": 2,
+          "endPos": 2
+        },
+        {
+          "entity": "Topping",
+          "startPos": 5,
+          "endPos": 5
+        },
+        {
+          "entity": "Topping",
+          "startPos": 7,
+          "endPos": 7
+        }
+      ]
+    }
+  ]
+}
